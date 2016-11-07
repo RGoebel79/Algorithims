@@ -40,3 +40,33 @@ Make a person:
 	The methods that take an argument must accept only one argument and it has to be a string.
 
 	These methods must be the only available means of interacting with the object.
+
+Friendly date ranges:
+
+	Convert a date range consisting of two dates formatted as YYYY-MM-DD into a more readable format.
+
+	The friendly display should use month names instead of numbers and ordinal dates instead of cardinal (1st instead of 1).
+
+	Do not display information that is redundant or that can be inferred by the user: if the date range ends in less than a year from when it begins, do not display the ending year.
+
+	Additionally, if the date range begins in the current year (i.e. it is currently the year 2016) and ends within one year, the year should not be displayed at the beginning of the friendly range.
+
+	If the range ends in the same month that it begins, do not display the ending year or month.
+
+Inventory Update:
+
+	Compare and update the inventory stored in a 2D array against a second 2D array of a fresh delivery. 
+
+	Update the current existing inventory item quantities (in arr1). If an item cannot be found, add the new item and quantity into the inventory array. 
+	
+	The returned inventory array should be in alphabetical order by item.
+
+Exact Change:
+
+	Design a cash register drawer function checkCashRegister() that accepts purchase price as the first argument (price), payment as the second argument (cash), and cash-in-drawer (cid) as the third argument.
+
+	cid is a 2D array listing available currency.
+
+	Return the string "Insufficient Funds" if cash-in-drawer is less than the change due. Return the string "Closed" if cash-in-drawer is equal to the change due.
+
+	Otherwise, return change in coin and bills, sorted in highest to lowest order.
