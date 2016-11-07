@@ -70,3 +70,7 @@ Exact Change:
 	Return the string "Insufficient Funds" if cash-in-drawer is less than the change due. Return the string "Closed" if cash-in-drawer is equal to the change due.
 
 	Otherwise, return change in coin and bills, sorted in highest to lowest order.
+
+Symmetric Difference:
+
+	Create a function that takes two or more arrays and returns an array of the symmetric difference of the provided arrays.
