@@ -89,3 +89,46 @@ Validate US Phone Numbers:
 	1 555 555 5555
 	
 	For this challenge you will be presented with a string such as 800-692-7753 or 8oo-six427676;laskdjf. Your job is to validate or reject the US phone number based on any combination of the formats provided above. The area code is required. If the country code is provided, you must confirm that the country code is 1. Return true if the string is a valid US phone number; otherwise return false.
+
+Two Sums:
+	
+	File: two_sums.js
+	
+	Given an array of integers, return indices of the two numbers such that they add up to a specific target.
+
+	You may assume that each input would have exactly one solution.
+
+	Example:
+	Given nums = [2, 7, 11, 15], target = 9,
+
+	Because nums[0] + nums[1] = 2 + 7 = 9,
+	return [0, 1].
+
+First Unique Character in a String
+
+	File: first_unique.js
+
+	Given a string, find the first non-repeating character in it and return it's index. If it doesn't exist, return -1.
+
+	Examples:
+
+	s = "leetcode"
+	return 0.
+
+	s = "loveleetcode",
+	return 2.
+
+Search Input Position:
+
+	File: search_insert.js
+
+	Given a sorted array and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.
+
+	You may assume no duplicates in the array.
+
+	Here are few examples.
+	[1,3,5,6], 5 > 2
+	[1,3,5,6], 2 > 1
+	[1,3,5,6], 7 > 4
+	[1,3,5,6], 0 > 0
+	Note: You may assume the string contain only lowercase letters.
