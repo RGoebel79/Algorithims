@@ -132,3 +132,22 @@ Search Input Position:
 	[1,3,5,6], 7 > 4
 	[1,3,5,6], 0 > 0
 	Note: You may assume the string contain only lowercase letters.
+
+Roman Numerals to Integer:
+
+	file: roman_to_int.js
+	
+	Given a roman numeral, convert it to an integer.
+
+	Input is guaranteed to be within the range from 1 to 3999.
+
+Sort Colors:
+
+	File: sort_colors.js
+
+	Given an array with n objects colored red, white or blue, sort them so that objects of the same color are adjacent, with the colors in the order red, white and blue.
+
+	Here, we will use the integers 0, 1, and 2 to represent the color red, white, and blue respectively.
+
+	Note:
+	You are not suppose to use the library's sort function for this problem.
